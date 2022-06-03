@@ -1,13 +1,12 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-
-    </style>
+    <title>Front End prototype</title>
+    <link rel = "stylesheet" href = "style.css">
 </head>
 <body>
 
@@ -20,67 +19,158 @@
                         <i class="fas fa-bars"></i>
                     </a>
                 </div>
+                <div class = "image">
+                    <img src="https://www.standarddao.finance/wp-content/uploads/2022/03/standard-dao-1.png" alt="Standard_DAO_1">
+                </div>
             </div>
         </div>
 
-        <div class="sidebar">    
+        <div class="sidebar">
             <div class="profile">
-                <img src="" alt="profile_picture"></img>
+                <img src="https://media-exp1.licdn.com/dms/image/C5603AQEgmq0K6nZ5xg/profile-displayphoto-shrink_400_400/0/1621622159072?e=1659571200&v=beta&t=Z0HJUd-iTNLxRDU9LJc-0NU-hMGV9kwzR3p8bA3Mp_A" alt="profile_picture">
                 <h3>Arron Rafferty</h3>
                 <p>Founder</p>
             </div>
-
             <ul>
                 <li>
-                    <a href="#" class="active">
+                    <a href="#">
                         <span class="icon"><i class="fas fa-home"></i></span>
                         <span class="item">Home</span>
                     </a>
+                    <div class = "Home_modal">
+                        <div class = "Home_modal_Header">
+
+                        </div>
+                        <div class = "Home_modal_Content">
+
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="icon"><i class="fas fa-retweet"></i></span>
+                        <span class="item">transaction</span>
+                    </a>
+                    <div class = "transaction_modal">
+                        <div class = "transaction_modal_Header">
+
+                        </div>
+                        <div class = "transaction_modal_Content">
+                            
+                        </div>
+                    </div>
                 </li>
                 <li>
                     <a href="#">
                         <span class="icon"><i class="fas fa-desktop"></i></span>
                         <span class="item">My Dashboard</span>
                     </a>
+                    <div class = "Dashboard_modal">
+                        <div class = "Dashboard_modal_Header">
+
+                        </div>
+                        <div class = "Dashboard_modal_Content">
+                            
+                        </div>
+                    </div>
                 </li>
                 <li>
                     <a href="#">
                         <span class="icon"><i class="fas fa-user-friends"></i></span>
                         <span class="item">People</span>
                     </a>
+
+                    <div class = "People_modal">
+                        <div class = "People_modal_Header">
+
+                        </div>
+                        <div class = "People_modal_Content">
+                            
+                        </div>
+                    </div>
                 </li>
                 <li>
                     <a href="#">
                         <span class="icon"><i class="fas fa-tachometer-alt"></i></span>
                         <span class="item">Perfomance</span>
                     </a>
+                    <div class = "Performance_modal">
+                        <div class = "Performance_modal_Header">
+
+                        </div>
+                        <div class = "Performance_modal_Content">
+                            
+                        </div>
+                    </div>
                 </li>
                 <li>
                     <a href="#">
                         <span class="icon"><i class="fas fa-database"></i></span>
                         <span class="item">Development</span>
                     </a>
+                    <div class = "Development_modal">
+                        <div class = "Development_modal_Header">
+
+                        </div>
+                        <div class = "Development_modal_Content">
+                            
+                        </div>
+                    </div>
                 </li>
                 <li>
                     <a href="#">
                         <span class="icon"><i class="fas fa-chart-line"></i></span>
                         <span class="item">Reports</span>
                     </a>
+                    <div class = "Reports_modal">
+                        <div class = "Reports_modal_Header">
+
+                        </div>
+                        <div class = "Reports_modal_Content">
+                            
+                        </div>
+                    </div>
                 </li>
                 <li>
                     <a href="#">
                         <span class="icon"><i class="fas fa-user-shield"></i></span>
                         <span class="item">Admin</span>
                     </a>
+                    <div class = "Admin_modal">
+                        <div class = "Admin_modal_Header">
+
+                        </div>
+                        <div class = "Admin_modal_Content">
+                            
+                        </div>
+                    </div>
                 </li>
                 <li>
                     <a href="#">
                         <span class="icon"><i class="fas fa-cog"></i></span>
                         <span class="item">Settings</span>
                     </a>
+                    <div class = "Settings_modal">
+                        <div class = "Settings_modal_Header">
+
+                        </div>
+                        <div class = "Settings_modal_Content">
+                            
+                        </div>
+                    </div>
                 </li>
             </ul>
         </div>
+
+        </div>
+
     </div>
-  <script src = "script.js"></script>
+  <script>
+    var hamburger = document.querySelector(".hamburger");
+        hamburger.addEventListener("click", function(){
+        document.querySelector("body").classList.toggle("active");
+    })
+
+  </script>
 </body>
+</html>
