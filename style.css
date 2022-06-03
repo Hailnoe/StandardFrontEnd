@@ -109,9 +109,10 @@ body{
     color: #bc9514;
 }
 
+.wrapper
 
 body.active .wrapper .sidebar{
-    left: -225px;
+    left: -255px;
 }
 
 body.active .wrapper .section{
