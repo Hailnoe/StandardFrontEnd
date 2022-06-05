@@ -1,0 +1,7 @@
+Hexadecimal Values Cheat Sheet
+#ffffff White
+#3e8572 Green
+#bb9cbd Purple 
+#2c6079 Blue 
+#6cb6b7 turqouise
+#203353 Dark Blue 

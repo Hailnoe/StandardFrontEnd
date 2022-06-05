@@ -109,8 +109,6 @@ body{
     color: #bc9514;
 }
 
-.wrapper
-
 body.active .wrapper .sidebar{
     left: -255px;
 }
