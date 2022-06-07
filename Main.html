@@ -23,6 +23,10 @@
                 <div class = "image">
                     <img src="https://www.standarddao.finance/wp-content/uploads/2022/03/standard-dao-1.png" alt="Standard_DAO_1">
                 </div>
+                <div class="wallet_container">
+                    <span class="icon"><i class="fas fa-wallet"></i></span>
+                    <span class="item">Link Wallet</span>
+                </div>
             </div>
         </div>
 
@@ -36,32 +40,26 @@
                 <li>
                     <a href="#">
                         <span class="icon"><i class="fas fa-home"></i></span>
-                        <span class="item">Home</span>
+                        <span class="item">Dashboard</span>
                     </a>
                 </li>
                 <li>
                     <a href="#">
                         <span class="icon"><i class="fas fa-retweet"></i></span>
-                        <span class="item">transaction</span>
+                        <span class="item">Bond</span>
                         
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <span class="icon"><i class="fas fa-desktop"></i></span>
-                        <span class="item">My Dashboard</span>
+                        <span class="icon"><i class = "fas fa-file"></i></span>
+                        <span class="item">Docs</span>
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <span class="icon"><i class="fas fa-user-friends"></i></span>
-                        <span class="item">People</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <span class="icon"><i class="fas fa-tachometer-alt"></i></span>
-                        <span class="item">Perfomance</span>
+                        <span class="icon"><i class="fas fa-archway"></i></span>
+                        <span class="item">Forum</span>
                     </a>
                 </li>
                 <li>
@@ -107,7 +105,12 @@
     var hamburger = document.querySelector(".hamburger");
         hamburger.addEventListener("click", function(){
         document.querySelector("body").classList.toggle("active");
-    })
+        })
+
+    var Wallet = document.querySelector(".wallet_container");
+        Wallet.addEventListener("click", function() {
+        document.querySelector("content").classList.toggle("");
+        })
   </script>
 </body>
 </html>

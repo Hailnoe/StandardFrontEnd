@@ -14,7 +14,7 @@ body{
 }
 
 .wrapper .sidebar{
-    background: rgb(236, 239, 240);
+    background: #2c6079;
     position: fixed;
     top: 0;
     left: 0;
@@ -65,13 +65,13 @@ body{
 .wrapper .sidebar ul li a:hover,
 .wrapper .sidebar ul li a.active{
     color: rgb(0, 0, 0);
-    background:white;
+    background:#6cb6b7;
     border-right: 2px solid rgb(0, 0, 0);
 }
 
 .wrapper .sidebar ul li a:hover .icon,
 .wrapper .sidebar ul li a.active .icon{
-    color: rgb(0, 0, 0);
+    color: #000000;
 }
 
 .wrapper .sidebar ul li a:hover:before,
@@ -86,8 +86,8 @@ body{
 }
 
 .wrapper .section .top_navbar{
-    background: rgb(236, 239, 240);
-    height: 50px;
+    background: #2c6079;
+    height: 75px;
     display: flex;
     align-items: center;
     padding: 0 30px;
@@ -107,6 +107,22 @@ body{
 
 .wrapper .section .top_navbar .hamburger a:hover{
     color: #bc9514;
+}
+
+.wrapper .section .top_navbar .wallet_container{
+    position: absolute;
+    background: #6cb6b7;
+    text-align: center;
+    justify-content: center;
+    right: 10px;
+    margin-top: 2px;
+    border-radius: 5px;
+    width: 100px;
+    height: 34px;
+}
+
+.wrapper .section .top_navbar .wallet_container a:hover{
+    background: #538c8d;
 }
 
 body.active .wrapper .sidebar{
